@@ -8,6 +8,10 @@ min-height: 100vh;
 background:#162052 ;
 } */
 
+body{
+    background-color: azure;
+}
+
 .box
 {
     position: relative;
