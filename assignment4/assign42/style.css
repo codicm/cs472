@@ -1,0 +1,47 @@
+body
+{
+    background-image: url(/images/back.jpeg);
+}
+#m
+{
+    width: 20%;
+}
+
+.form label
+{
+    width: 120px;
+    display: inline-block;
+    font-weight: bold;
+}
+.form
+{
+background-color: rgb(223, 223, 221);
+width: 50%;
+border-radius: 15PX;
+box-shadow:  5px 5px 5px 5px rgb(255, 255, 0);
+border-color: rgb(255, 255, 0);
+
+margin-left: 270px;
+}
+.bt
+{
+    font-weight: bold;
+    background-color: rgb(255, 255, 0);
+    font-size: medium;
+}
+.form span
+{
+    color: red;
+}
+.dd
+{
+    color: white;
+ text-align: center;
+ font-size: 40px;
+}
+.dd h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+}

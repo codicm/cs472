@@ -1,0 +1,29 @@
+#m
+{
+    width: 20%;
+}
+
+.form label
+{
+    width: 120px;
+    display: inline-block;
+    font-weight: bold;
+}
+.form
+{
+background-color: rgb(128, 209, 247);
+width: 50%;
+border-radius: 10PX;
+box-shadow:  2px 2px 0px 0px;
+}
+.bt
+{
+    font-weight: bold;
+    background-color: pink;
+    font-size: medium;
+}
+.form span
+{
+    color: red;
+}
+

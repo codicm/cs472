@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+ <div class="dd">
+    <h1>Retrieve your grade</h1>
+
+    Get Grade! 
+ </div>
+<fieldset class="form">
+    <legend><input type="button" value="results"> </legend>
+    <form action="/http://mumstudents.org/params.php" method="post">
+
+        <label>  Student Name: </label>
+            <input type="text"  />
+        
+        <br>
+        <br>
+
+<label > Student Entry: </label>
+    <input type="radio" name="round">  November
+    <input type="radio" name="round" checked> January
+
+<br>
+<br>
+
+<label> Student Id: </label>
+    <input type="text" />
+
+<br>
+<br>
+
+
+
+<label> Assignment: </label>
+   <select name="fav">
+    <option selected >Assignment 1</option>
+    <option>Assignment 2</option>
+    <option>Assignment 4</option>
+    <option>Assignment 5</option>
+    <option>Assignment 6</option>
+    <option>Assignment 7</option>
+    <option>Assignment 8</option>
+    <option>Assignment 9</option>
+    <option>Assignment 10</option>
+   </select>
+
+<br>
+<br>
+<input type="checkbox"/> confirm that you are not lying and that you are only looking up for your own grades
+<br>
+<br>
+<input class="bt" type="submit" value="Submit">
+
+    </form>
+</fieldset>
+</body>
+</html>

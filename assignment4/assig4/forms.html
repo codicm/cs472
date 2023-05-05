@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <img id="m" src="/images/logo-vectoriel.jpg">
+   
+    <fieldset class="form">
+        <legend><input type="button" value="New User Signup:"> </legend>
+        <form action="/http://mumstudents.org/params.php" method="post">
+    
+            <label> Name: </label>
+                <input type="text" size="17" />
+            
+            <br>
+            <br>
+    
+    <label > Gender: </label>
+        <input type="radio" name="round">  Male
+        <input type="radio" name="round" checked> Female
+    
+    <br>
+    <br>
+    
+    <label> Age: </label>
+        <input type="text" maxlength="2" size="7"/>
+    
+    <br>
+    <br>
+    
+    <label> Personality type: </label>
+        <input type="text" maxlength="4" size="7"/>
+        (<span>Don't know your type?</span>)
+    
+    <br>
+    <br>
+    
+    <label> Favorite OS: </label>
+       <select name="fav">
+        <option selected >Windows</option>
+        <option>Mac OS X</option>
+        <option>Linux</option>
+    
+       </select>
+    
+    <br>
+    <br>
+    <label> Seeking age: </label>
+        <input type="text" placeholder="min" maxlength="2" size="7"/>
+        to
+        <input type="text" placeholder="max" maxlength="2" size="7"/>
+    
+    <br>
+    <br>
+    <input class="bt" type="submit" value="Sign Up">
+    
+        </form>
+    </fieldset>
+</body>
+</html>
