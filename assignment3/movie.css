@@ -153,10 +153,11 @@ body
 }
 .imo
 {
-    width: 24%;
+    width: 23.9%;
    position: absolute;
    top: 15%;
-   right: 10.2%;
+   right: 10.3%;
+   border-radius: 0 8px 0 0;
 }
 .r
 {
@@ -175,4 +176,26 @@ body
 .ha
 {
     font-weight: bold;
+}
+.t
+{
+    
+  padding-bottom: 30px;
+    
+}
+
+.d88
+{
+  width: 45%;
+  height: 300px;
+   
+  background-image: url(images/background.png);
+ 
+}
+.last
+{
+    text-align: center;
+    bottom: 0;
+    padding-left: 550px;
+   margin-bottom: 10px;
 }
