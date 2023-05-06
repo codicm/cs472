@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <!--
+	CSE 190M, Summer 2012
+	This file is a tip calculator page using JavaScript.
+	-->
+  <script>
+    function add() {
+      // Enter your code here to make Tip Calculator work
+
+      var task = document.getElementById("task").value;
+	  if(String(task).trim()=="") return
+      localStorage.setItem(localStorage.length + 1, String(task).trim());
+	  
+      document.getElementById("tarea").innerHTML += String(task).trim()+ "\n";
+      document.getElementById("task").value = "";
+    }
+    function clear2() {
+		
+   localStorage.clear();
+   document.getElementById("tarea").innerHTML =  "";
+
+    }
+	window.onload= function init()
+	{
+     if(localStorage.length>0){
+		for(let i=1; i<=localStorage.length; i++){
+			document.getElementById("tarea").innerHTML += localStorage.getItem(i) + "\n";
+		}
+	 }
+	}
+
+	
+  </script>
+  <head>
+    <title>Task</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <!-- <script src="tip.js" type="text/javascript"></script> -->
+  </head>
+
+  <body>
+    <div class="d1">
+      <h1 class="he">Tip Calculator</h1>
+      <div class="r">
+        <div class="d2">
+          <h2>Task</h2>
+          <input id="task" size="35" type="text" />
+          <br />
+          <br />
+          <button  onclick="add()">Add Task</button>
+          <br />
+          <br />
+          <button onclick="clear2()">Clear Tasks</button>
+		
+        </div>
+        <div class="d3">
+          <h2>Task List</h2>
+          <textarea id="tarea" disabled cols="40" rows="10"></textarea>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

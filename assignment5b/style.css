@@ -1,0 +1,42 @@
+
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+body, input, button {
+    font-family: "Century Gothic",sans-serif;
+   
+}
+.he
+{
+    text-align: center;
+    color: blue;
+}
+.d1 {
+  width: 95%;
+    
+    border: solid 7px;
+    margin-top: 100px;
+    border-color: blue;
+     
+}
+.r
+{
+    display: flex;
+}
+.d2
+{
+width: 40%;
+margin: 15px;
+flex-direction: column;
+}
+.d3
+{
+    margin-right: 0;
+width: 40%;
+margin-bottom: 10px;
+}
+.d2 button
+{
+    width: 248px;
+}
