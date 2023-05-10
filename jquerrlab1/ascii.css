@@ -1,0 +1,20 @@
+body
+{
+    background-color: #CCCCFF;
+    font-weight: bold 14pt;
+    font-family: sans-serif;
+
+}
+body fieldset
+{
+    border: solid 10px;
+    border-width: 20px;
+}
+body h2
+{
+    font-size: 32pt;
+}
+ body textarea
+ {
+    
+ }
