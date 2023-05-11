@@ -1,9 +1,9 @@
-body
+ body
 {
-    background-color: #CCCCFF;
+    background-color: #dda4fc !important;
     font-weight: bold 14pt;
     font-family: sans-serif;
-
+    display: flex;
 }
 body fieldset
 {
@@ -13,5 +13,15 @@ body fieldset
 body h2
 {
     font-size: 32pt;
+}
+  
+.dis
+{
+    display: flex;
+}
+.play
+{
+ 
+  flex-direction: left;  
 }
  
