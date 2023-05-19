@@ -1,3 +1,5 @@
+
+
 const express = require('express');
 const addmod = require('./addmod.js');
 const path = require('path');
@@ -9,11 +11,11 @@ app.use((req, res, next) => {
     console.log("This is always run");
     next();
 });
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/public'));
 app.use('/add',(req,res,next)=>{
     addmod.add(req,res,req.query);
 });
 app.use('/', (req, res, next) => {
     console.log('In another middleware!');
-    res.sendFile(path.join(__dirname, 'simpleAdder.html'));
+    res.sendFile(path.join(__dirname, 'views', 'SimpleAdder.html'));
 });
